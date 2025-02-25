@@ -1,7 +1,7 @@
 {
-  "name": "mocha-multi-reporters",
-  "version": "1.5.1",
-  "description": "Generate multiple mocha reports in a single mocha execution.",
+  "name": "@jelwood/mocha-multi-reporters",
+  "version": "1.5.2",
+  "description": "Generate multiple mocha reports in a single mocha execution. Forked to support .cjs config files.",
   "main": "index.js",
   "nyc": {
     "reporter": [
@@ -14,21 +14,22 @@
     "lint": "eslint .",
     "test": "nyc mocha --require chai/register-expect --timeout 5000 tests/**/*.test.js*"
   },
-  "author": "Stanley Ng <stanleyhlng77-dev@yahoo.com.hk",
+  "author": "Jeremy Elwood",
   "contributors": [
+    "Stanley Ng <stanleyhlng77-dev@yahoo.com.hk",
     "Yousaf Nabi <yousafn@gmail.com",
     "Brett Zamir",
     "Francis Upton IV <francisu@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stanleyhlng/mocha-multi-reporters"
+    "url": "https://github.com/Jmelwood/mocha-multi-reporters"
   },
   "engines": {
     "node": ">=6.0.0"
   },
-  "bugs": "https://github.com/stanleyhlng/mocha-multi-reporters/issues",
-  "homepage": "https://github.com/stanleyhlng/mocha-multi-reporters",
+  "bugs": "https://github.com/Jmelwood/mocha-multi-reporters/issues",
+  "homepage": "https://github.com/Jmelwood/mocha-multi-reporters",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
